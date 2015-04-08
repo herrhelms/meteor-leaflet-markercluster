@@ -17,7 +17,7 @@ Create a new MarkerClusterGroup, add your markers to it, then add it to the map
 ```js
 var markers = new L.MarkerClusterGroup();
 markers.addLayer(new L.Marker(getRandomLatLng(map)));
-... Add more layers ...
+// Add more layers
 map.addLayer(markers);
 ```
 
