@@ -15,13 +15,10 @@ I've worked with `dfischer:meteor-mapbox` but there are a few others around.
 Create a new MarkerClusterGroup, add your markers to it, then add it to the map
 
 ```js
-	var markers = new L.MarkerClusterGroup();
-	markers.addLayer(new L.Marker(getRandomLatLng(map)));
-	... Add more layers ...
-	map.addLayer(markers);
+    var markers = new L.MarkerClusterGroup();
+    markers.addLayer(new L.Marker(getRandomLatLng(map)));
+    ... Add more layers ...
+    map.addLayer(markers);
 ```
 
 Read the full documentation of L.MarkerClusterGroup [here](https://github.com/Leaflet/Leaflet.markercluster).
-
- 
-
