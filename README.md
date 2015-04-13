@@ -21,6 +21,4 @@ markers.addLayer(new L.Marker(getRandomLatLng(map)));
 map.addLayer(markers);
 ```
 
-
 Read the full documentation of L.MarkerClusterGroup [here](https://github.com/Leaflet/Leaflet.markercluster).
-
